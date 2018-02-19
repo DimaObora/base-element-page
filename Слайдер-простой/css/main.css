@@ -1,0 +1,42 @@
+.slider {
+    position: relative;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.slider_list_wrap {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider_list {
+    clear: both;
+    width: 20000px;
+    position: relative;
+    transition: left 1s ease-out 0.5s;
+    left: 0;
+}
+
+.slider_item {
+    float: left;
+    list-style-type: none;
+}
+
+.slider_controls_button {
+    position: absolute;
+    top: 240px;
+}
+
+.slider_controls_button_next {
+    right: -100px;
+}
+
+.slider_controls_button_prev {
+    left: -100px;
+}
+
+.slider_list .slider_item a img {
+    height: 500px;
+    width: auto;
+}
